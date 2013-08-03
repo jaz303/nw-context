@@ -13,5 +13,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jaz303/nw-context.git"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
   }
 }
