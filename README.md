@@ -1,6 +1,6 @@
 # nw-context
 
-Store browser `document` and `window` objects in a module for later retrieval from node-webkit modules running in the node context.
+Modules loaded using `require()` inside node-webkit do not have access to the browser's usual globals such as `window` and `document`. To restore this behaviour it is possible to assign such objects to node's `global` object, but if you don't feel like polluting your global namespace, this module is for you.
 
 Set up in the browser:
 
