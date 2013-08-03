@@ -1,0 +1,17 @@
+{
+  "name": "nw-context",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Helper functions for passing document/window context into node-webkit",
+  "keywords": [
+    "node-webkit",
+    "document",
+    "window"
+  ],
+  "author": "Jason Frame <jason@onehackoranother.com> (jasonframe.co.uk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaz303/nw-context.git"
+  }
+}
